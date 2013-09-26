@@ -1,0 +1,87 @@
+
+body {
+	font-family:Arial;
+	background-color:#F6E4CC;
+}
+
+h1 {
+	color:#C7E1BA;
+	margin:5px 5px 5px 15px;
+}
+
+
+.wrapper {
+	width:600px;
+	margin:0px auto;
+	padding:10px;
+	border-radius: 10px;
+	background-color:#397249;
+}
+
+.search_area {
+	background-color:#9CB770;
+	margin:20px;
+	padding:20px;
+	border-radius: 10px
+}
+
+.result_area {
+	background-color:#C7E1BA;
+	margin:20px;
+	padding:20px;
+	border-radius: 10px
+}
+
+#app_errors, #shortcut_errors {
+	margin:0px;
+}
+
+.error_msg {
+	color:#F3D5BD;
+}
+
+.app_button {
+	border:none;
+	background-color:transparent;
+	text-decoration: underline;
+}
+
+.center_text {
+	text-align: center;
+	font-size:12px;
+}
+
+
+#shortcut_input label {
+	float:left;
+	clear:both;
+}
+
+#shortcut_input input {
+	float:left;
+	clear:both;
+}
+
+#shortcut_key {
+	width:300px;
+}
+
+#shortcut_input TEXTAREA {
+	width:400px;
+	float:left;
+	clear:both;
+}
+
+#shortcut_errors p {
+	float:left;
+	clear:both;
+}
+
+.center_reuslts {
+	width:90%;
+	margin:0px auto;
+}
+
+.clear {
+	clear:both;
+}
